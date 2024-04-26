@@ -541,6 +541,7 @@ namespace Npgsql
         [Category("Security")]
         [Description("Whether to trust the server certificate without validating it.")]
         [DisplayName("Trust Server Certificate")]
+        [DefaultValue(true)]
         [NpgsqlConnectionStringProperty]
         public bool TrustServerCertificate
         {
